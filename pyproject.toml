@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "courework-5-parser-hh-to-sql"
+version = "0.1.0"
+description = ""
+authors = ["Ilya Kovalchuk <mrlivedance@vk.com>"]
+readme = "README.md"
+packages = [{include = "courework_5_parser_hh_to_sql"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

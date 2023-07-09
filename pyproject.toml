@@ -8,6 +8,7 @@ packages = [{include = "courework_5_parser_hh_to_sql"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+psycopg2 = "^2.9.6"
 
 
 [build-system]
